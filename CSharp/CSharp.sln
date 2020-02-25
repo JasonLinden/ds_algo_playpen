@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "SelectionS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertionSort\InsertionSort.csproj", "{ED618DB6-197A-44B4-A9CA-129EF47F1EFD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleAlgos", "SimpleAlgos", "{81D22507-B458-4383-BF58-ADB2DE27644B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAlgos", "SimpleAlgos\SimpleAlgos.csproj", "{0A3D3791-E7F7-43BB-A462-4457AD18E25B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,10 @@ Global
 		{ED618DB6-197A-44B4-A9CA-129EF47F1EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED618DB6-197A-44B4-A9CA-129EF47F1EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED618DB6-197A-44B4-A9CA-129EF47F1EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A3D3791-E7F7-43BB-A462-4457AD18E25B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3D3791-E7F7-43BB-A462-4457AD18E25B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3D3791-E7F7-43BB-A462-4457AD18E25B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3D3791-E7F7-43BB-A462-4457AD18E25B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +45,7 @@ Global
 		{5509F3EF-5A87-4E35-9802-6D725BFBC366} = {2E2E75AB-AFF6-4FDB-B8BB-E2E9901934CB}
 		{FB24EDEF-5759-4B4C-BFC7-6D7B140F1767} = {2E2E75AB-AFF6-4FDB-B8BB-E2E9901934CB}
 		{ED618DB6-197A-44B4-A9CA-129EF47F1EFD} = {2E2E75AB-AFF6-4FDB-B8BB-E2E9901934CB}
+		{0A3D3791-E7F7-43BB-A462-4457AD18E25B} = {81D22507-B458-4383-BF58-ADB2DE27644B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94980D3F-ACFA-4306-9351-570C73AF336F}
