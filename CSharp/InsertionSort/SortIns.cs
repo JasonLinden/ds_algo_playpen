@@ -32,7 +32,7 @@
                 var temp = _arr[i];
                 var inner = i;
 
-                while(inner > 0 && _arr[inner - 1] > temp)
+                while (inner > 0 && _arr[inner - 1] > temp)
                 {
                     _arr[inner] = _arr[inner - 1];
                     inner--;
