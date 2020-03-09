@@ -21,7 +21,7 @@
          * | 1 | 3 | 4 |   |
          * | 1 | 3 | 4 | 8 | <-- When we add a new item _rear will equal maxSize - 1, so we either thriw an error or wrap, wrapping will throw out the _head
          * | n | 3 | 4 | 8 | <-- Dequeue from the front, now we can wrap
-         * | 9 | 3 | 4 | 8 | <-- now _head = index 1 and _rear = index 0, i.e. a broken sequence 
+         * | 9 | 3 | 4 | 8 | <-- now _head = index 1 (3) and _rear = index 0 (9), i.e. a broken sequence 
          * 
          * 
          */

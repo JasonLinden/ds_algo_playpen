@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Stack
 {
@@ -37,8 +34,8 @@ namespace Stack
                     {
                         var matchingItem = stackx.Pop();
 
-                        // essentially for this to be right the first item popped off the stack must definitely be 
-                        // the matching left delimiter.
+                        // essentially for this to be true, the first item popped off the stack must definitely be 
+                        // the matching right delimiter.
                         if (!isMatchingPair(matchingItem, a.ToString()))
                         {
                             Console.WriteLine($"Error {a} at {i}");
@@ -53,7 +50,7 @@ namespace Stack
                 }
             }
 
-            // If we get here, that means there is still an item on the stack, which is a left delimiter.
+            // If we get here, that means there is still an item on the stack, which is a left delimiter. - Missing right delimiter
             if (!stackx.IsEmpty())
                 Console.WriteLine("Missing right delimiter");
         }
