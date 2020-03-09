@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj", "{11F855E9-250B-4E9E-8161-B12915EE679B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueue", "PriorityQueue\PriorityQueue.csproj", "{5569D2A5-648B-4FBF-85E9-FFCAB114902D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{11F855E9-250B-4E9E-8161-B12915EE679B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11F855E9-250B-4E9E-8161-B12915EE679B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11F855E9-250B-4E9E-8161-B12915EE679B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5569D2A5-648B-4FBF-85E9-FFCAB114902D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5569D2A5-648B-4FBF-85E9-FFCAB114902D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5569D2A5-648B-4FBF-85E9-FFCAB114902D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5569D2A5-648B-4FBF-85E9-FFCAB114902D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{0A3D3791-E7F7-43BB-A462-4457AD18E25B} = {81D22507-B458-4383-BF58-ADB2DE27644B}
 		{751EC08E-C020-4665-B5F6-F8C32802078E} = {40EC4EDE-5117-44AB-9826-341E282CDE5F}
 		{11F855E9-250B-4E9E-8161-B12915EE679B} = {40EC4EDE-5117-44AB-9826-341E282CDE5F}
+		{5569D2A5-648B-4FBF-85E9-FFCAB114902D} = {40EC4EDE-5117-44AB-9826-341E282CDE5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94980D3F-ACFA-4306-9351-570C73AF336F}
