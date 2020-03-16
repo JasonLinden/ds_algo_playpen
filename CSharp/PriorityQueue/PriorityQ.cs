@@ -14,7 +14,7 @@
         }
 
         // This is the slow insertion approach. 
-        // The faster appraoach is using a head as the underlying data structure.
+        // The faster appraoach is using the heap as the underlying data structure.
         public void Enqeue(int value)
         {
             if (_nItems == 0)
