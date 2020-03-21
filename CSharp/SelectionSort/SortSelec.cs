@@ -27,7 +27,7 @@
 
                 // We go along the rest of the values and compare each with our current smallest value.
                 // If an item of the right is smaller, then we set that value as the new smallest.
-                for (int j = i + 1; j < _numItems; j++)
+                for (int j = i + 1; j < _numItems - 1; j++)
                 {
                     // Compare
                     if (_arr[j] < _arr[smallest])
