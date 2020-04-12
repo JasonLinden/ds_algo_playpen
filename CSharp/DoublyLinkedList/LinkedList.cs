@@ -35,6 +35,11 @@ namespace DoublyLinkedList
             _first = newLink;
         }
 
+        internal Link GetFirst()
+        {
+            return _first;
+        }
+
         public void InsertLast(int data)
         {
             var newLink = new Link(data);
@@ -178,6 +183,11 @@ namespace DoublyLinkedList
             }
 
             Console.WriteLine("");
+        }
+
+        public Iterator GetIterator()
+        {
+            return new Iterator(this);
         }
     }
 

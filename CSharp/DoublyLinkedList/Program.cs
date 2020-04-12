@@ -30,6 +30,14 @@ namespace DoublyLinkedList
 
             theList.TraverseForward(); // From 44 -> 88
 
+            // Using Iterator 
+            foreach (var item in theList.GetIterator())
+            {
+                // Here we can loop over the list and perform opertaions a perticular link,
+                // Rather than having to find the item using link.find();
+                Console.WriteLine(item.iData);
+            }
+
             Console.ReadKey();
         }
     }
