@@ -29,13 +29,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLinkedList", "SimpleL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleEndedLinkedList", "DoubleEndedLinkedList\DoubleEndedLinkedList.csproj", "{AC9ACB7D-B52A-4FF6-B09D-BC0317A5050D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListStack", "LinkedListStack\LinkedListStack.csproj", "{6660A5CD-B7E9-4ECB-874D-145FD58860CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListStack", "LinkedListStack\LinkedListStack.csproj", "{6660A5CD-B7E9-4ECB-874D-145FD58860CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListQueue", "LinkedListQueue\LinkedListQueue.csproj", "{42BA923F-3C6A-4A36-9E89-C5BAA9DE3021}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListQueue", "LinkedListQueue\LinkedListQueue.csproj", "{42BA923F-3C6A-4A36-9E89-C5BAA9DE3021}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedLinkedList", "SortedLinkedList\SortedLinkedList.csproj", "{F25A23AA-CEBD-493B-A4B9-FCEB4995E11E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedLinkedList", "SortedLinkedList\SortedLinkedList.csproj", "{F25A23AA-CEBD-493B-A4B9-FCEB4995E11E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoublyLinkedList", "DoublyLinkedList\DoublyLinkedList.csproj", "{971E22F6-8D24-4D05-A928-8B114E626F03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoublyLinkedList", "DoublyLinkedList\DoublyLinkedList.csproj", "{971E22F6-8D24-4D05-A928-8B114E626F03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion", "Recursion", "{A24D117C-5915-458F-B8AE-F787831741BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleAngle", "TriangleAngle\TriangleAngle.csproj", "{A07BB90C-E3AD-4FBD-B26E-AF1BC736563D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveBinarySearch", "RecursiveBinarySearch\RecursiveBinarySearch.csproj", "{64C164E6-7CC6-4F73-BB7B-68BC85824F7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +101,14 @@ Global
 		{971E22F6-8D24-4D05-A928-8B114E626F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{971E22F6-8D24-4D05-A928-8B114E626F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{971E22F6-8D24-4D05-A928-8B114E626F03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07BB90C-E3AD-4FBD-B26E-AF1BC736563D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07BB90C-E3AD-4FBD-B26E-AF1BC736563D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07BB90C-E3AD-4FBD-B26E-AF1BC736563D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07BB90C-E3AD-4FBD-B26E-AF1BC736563D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C164E6-7CC6-4F73-BB7B-68BC85824F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C164E6-7CC6-4F73-BB7B-68BC85824F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C164E6-7CC6-4F73-BB7B-68BC85824F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C164E6-7CC6-4F73-BB7B-68BC85824F7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +127,8 @@ Global
 		{42BA923F-3C6A-4A36-9E89-C5BAA9DE3021} = {747330DC-DF6D-4F24-B83E-495FB2A0C244}
 		{F25A23AA-CEBD-493B-A4B9-FCEB4995E11E} = {747330DC-DF6D-4F24-B83E-495FB2A0C244}
 		{971E22F6-8D24-4D05-A928-8B114E626F03} = {747330DC-DF6D-4F24-B83E-495FB2A0C244}
+		{A07BB90C-E3AD-4FBD-B26E-AF1BC736563D} = {A24D117C-5915-458F-B8AE-F787831741BD}
+		{64C164E6-7CC6-4F73-BB7B-68BC85824F7A} = {A24D117C-5915-458F-B8AE-F787831741BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94980D3F-ACFA-4306-9351-570C73AF336F}
