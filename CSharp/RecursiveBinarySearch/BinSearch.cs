@@ -29,6 +29,7 @@ namespace RecursiveBinarySearch
         {
             int currIn = (lower + upper) / 2;
 
+            // this is the base case.
             if (_array[currIn] == searchValue)
                 return currIn;
 

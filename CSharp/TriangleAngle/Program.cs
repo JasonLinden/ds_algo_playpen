@@ -7,7 +7,9 @@ namespace TriangleAngle
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a number: ");
-            Console.WriteLine($"Result - {TriangleAnalyzer(int.Parse(Console.ReadLine()))}");
+            var number = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Result as a Triangle - {TriangleAnalyzer(number)}");
+            Console.WriteLine($"Result as a Factorial - {FactorInThis(number)}");
 
             Console.ReadKey();
         }
@@ -18,10 +20,35 @@ namespace TriangleAngle
         // Another way of calculating this is by working out (n^2+n)/2
         private static int Triangle(int n)
         {
+            // base case
             if (n == 1)
                 return 1;
 
             return (n + Triangle(n - 1));
+        }
+
+        static int FactorInThis(int n)
+        {
+            // base case
+            if (n == 1)
+                return 1;
+
+            return n * FactorInThis(n - 1);
+        }
+
+        static int FindNthTerm_Loop(int nth)
+        {
+            // basically if we have 4 as n, we need to find the 4th triangular term.
+            // Thus 4 + 3 + 2 + 1 = 10 
+
+            int total = 0;
+
+            while (nth > 0)
+            {
+                total += nth--;
+            }
+
+            return total;
         }
 
         // Analyze this function
