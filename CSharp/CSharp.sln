@@ -55,6 +55,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerOfN", "PowerOfN\PowerO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knapsack", "Knapsack\Knapsack.csproj", "{AD498095-38D5-4744-A252-BD9E45F386A1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdvancedSorting", "AdvancedSorting", "{F4B7D2CD-636B-42B0-B99E-89E5DB718248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellSort", "ShellSort\ShellSort.csproj", "{3E96CA08-CE24-4FB4-8F96-B7F005CC1E7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,6 +149,10 @@ Global
 		{AD498095-38D5-4744-A252-BD9E45F386A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD498095-38D5-4744-A252-BD9E45F386A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD498095-38D5-4744-A252-BD9E45F386A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E96CA08-CE24-4FB4-8F96-B7F005CC1E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E96CA08-CE24-4FB4-8F96-B7F005CC1E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E96CA08-CE24-4FB4-8F96-B7F005CC1E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E96CA08-CE24-4FB4-8F96-B7F005CC1E7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -171,6 +179,7 @@ Global
 		{C5B4C329-D974-4D40-B19A-81FE2D818AA5} = {A24D117C-5915-458F-B8AE-F787831741BD}
 		{5EDC26F5-6F0F-4FDA-A61D-26C66F7F93D7} = {A24D117C-5915-458F-B8AE-F787831741BD}
 		{AD498095-38D5-4744-A252-BD9E45F386A1} = {A24D117C-5915-458F-B8AE-F787831741BD}
+		{3E96CA08-CE24-4FB4-8F96-B7F005CC1E7C} = {F4B7D2CD-636B-42B0-B99E-89E5DB718248}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94980D3F-ACFA-4306-9351-570C73AF336F}
