@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellSort", "ShellSort\Shel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partitioned", "Partitioned\Partitioned.csproj", "{70F3DD60-984C-4F59-86BE-AC1AFECC5554}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quicksort", "Quicksort\Quicksort.csproj", "{F1E3EA2B-00E1-4AD9-9FD2-7D05BF37E8AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{70F3DD60-984C-4F59-86BE-AC1AFECC5554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70F3DD60-984C-4F59-86BE-AC1AFECC5554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70F3DD60-984C-4F59-86BE-AC1AFECC5554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E3EA2B-00E1-4AD9-9FD2-7D05BF37E8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E3EA2B-00E1-4AD9-9FD2-7D05BF37E8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E3EA2B-00E1-4AD9-9FD2-7D05BF37E8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E3EA2B-00E1-4AD9-9FD2-7D05BF37E8AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -187,6 +193,7 @@ Global
 		{AD498095-38D5-4744-A252-BD9E45F386A1} = {A24D117C-5915-458F-B8AE-F787831741BD}
 		{3E96CA08-CE24-4FB4-8F96-B7F005CC1E7C} = {F4B7D2CD-636B-42B0-B99E-89E5DB718248}
 		{70F3DD60-984C-4F59-86BE-AC1AFECC5554} = {F4B7D2CD-636B-42B0-B99E-89E5DB718248}
+		{F1E3EA2B-00E1-4AD9-9FD2-7D05BF37E8AF} = {F4B7D2CD-636B-42B0-B99E-89E5DB718248}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94980D3F-ACFA-4306-9351-570C73AF336F}

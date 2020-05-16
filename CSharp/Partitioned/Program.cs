@@ -2,7 +2,7 @@
 
 namespace Partitioned
 {
-    class Program
+    public class Program
     {
         static int[] _theArray;
 
@@ -18,7 +18,7 @@ namespace Partitioned
 
         // We are not concerned with the order of the elements once they are partitioned (hence almost sorted)
 
-        static void Partition(int left, int right, int pivot)
+        public static void Partition(int left, int right, int pivot)
         {
             // we want to start one index to the left and to the right.
             int leftPrt = left - 1;
