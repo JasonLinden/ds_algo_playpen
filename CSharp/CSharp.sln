@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2000
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleSorting", "SimpleSorting", "{2E2E75AB-AFF6-4FDB-B8BB-E2E9901934CB}"
 EndProject
@@ -41,27 +41,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion", "Recursion", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleAngle", "TriangleAngle\TriangleAngle.csproj", "{A07BB90C-E3AD-4FBD-B26E-AF1BC736563D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveBinarySearch", "RecursiveBinarySearch\RecursiveBinarySearch.csproj", "{64C164E6-7CC6-4F73-BB7B-68BC85824F7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveBinarySearch", "RecursiveBinarySearch\RecursiveBinarySearch.csproj", "{64C164E6-7CC6-4F73-BB7B-68BC85824F7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowersOfHanoi", "TowersOfHanoi\TowersOfHanoi.csproj", "{2742999D-2F5F-41C6-B3D4-EA6C87FF2058}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TowersOfHanoi", "TowersOfHanoi\TowersOfHanoi.csproj", "{2742999D-2F5F-41C6-B3D4-EA6C87FF2058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagrams", "Anagrams\Anagrams.csproj", "{25375561-DDB5-4406-9717-32E9C564FFD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anagrams", "Anagrams\Anagrams.csproj", "{25375561-DDB5-4406-9717-32E9C564FFD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mergesort", "mergesort\mergesort.csproj", "{B75B8B63-5122-4B9A-A2BB-797251B8A734}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mergesort", "mergesort\mergesort.csproj", "{B75B8B63-5122-4B9A-A2BB-797251B8A734}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackAsRecursion", "StackAsRecursion\StackAsRecursion.csproj", "{C5B4C329-D974-4D40-B19A-81FE2D818AA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackAsRecursion", "StackAsRecursion\StackAsRecursion.csproj", "{C5B4C329-D974-4D40-B19A-81FE2D818AA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerOfN", "PowerOfN\PowerOfN.csproj", "{5EDC26F5-6F0F-4FDA-A61D-26C66F7F93D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerOfN", "PowerOfN\PowerOfN.csproj", "{5EDC26F5-6F0F-4FDA-A61D-26C66F7F93D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knapsack", "Knapsack\Knapsack.csproj", "{AD498095-38D5-4744-A252-BD9E45F386A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Knapsack", "Knapsack\Knapsack.csproj", "{AD498095-38D5-4744-A252-BD9E45F386A1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdvancedSorting", "AdvancedSorting", "{F4B7D2CD-636B-42B0-B99E-89E5DB718248}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellSort", "ShellSort\ShellSort.csproj", "{3E96CA08-CE24-4FB4-8F96-B7F005CC1E7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShellSort", "ShellSort\ShellSort.csproj", "{3E96CA08-CE24-4FB4-8F96-B7F005CC1E7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partitioned", "Partitioned\Partitioned.csproj", "{70F3DD60-984C-4F59-86BE-AC1AFECC5554}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Partitioned", "Partitioned\Partitioned.csproj", "{70F3DD60-984C-4F59-86BE-AC1AFECC5554}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quicksort", "Quicksort\Quicksort.csproj", "{F1E3EA2B-00E1-4AD9-9FD2-7D05BF37E8AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quicksort", "Quicksort\Quicksort.csproj", "{F1E3EA2B-00E1-4AD9-9FD2-7D05BF37E8AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trees", "Trees", "{CBAABD99-F56D-4286-8307-784537510942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BST", "BST\BST.csproj", "{30B008F5-40ED-4A95-81C1-E212E6CF511C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +169,10 @@ Global
 		{F1E3EA2B-00E1-4AD9-9FD2-7D05BF37E8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1E3EA2B-00E1-4AD9-9FD2-7D05BF37E8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1E3EA2B-00E1-4AD9-9FD2-7D05BF37E8AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B008F5-40ED-4A95-81C1-E212E6CF511C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B008F5-40ED-4A95-81C1-E212E6CF511C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B008F5-40ED-4A95-81C1-E212E6CF511C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B008F5-40ED-4A95-81C1-E212E6CF511C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -194,6 +202,7 @@ Global
 		{3E96CA08-CE24-4FB4-8F96-B7F005CC1E7C} = {F4B7D2CD-636B-42B0-B99E-89E5DB718248}
 		{70F3DD60-984C-4F59-86BE-AC1AFECC5554} = {F4B7D2CD-636B-42B0-B99E-89E5DB718248}
 		{F1E3EA2B-00E1-4AD9-9FD2-7D05BF37E8AF} = {F4B7D2CD-636B-42B0-B99E-89E5DB718248}
+		{30B008F5-40ED-4A95-81C1-E212E6CF511C} = {CBAABD99-F56D-4286-8307-784537510942}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94980D3F-ACFA-4306-9351-570C73AF336F}
