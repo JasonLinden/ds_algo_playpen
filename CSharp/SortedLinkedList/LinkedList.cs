@@ -39,6 +39,22 @@
             link.next = current;
         }
 
+        public Link FindByKey(int key)
+        {
+            var current = _first;
+
+            while (current.Data != key) // loop over linklist untill current link contains the key
+            {
+                if (current.next == null) return null;
+
+                // If the current link data is not equal to the key then set current to the next link
+                current = current.next;
+            }
+
+            // return found link
+            return current;
+        }
+
         public Link DeleteFirst()
         {
             var temp = _first;
